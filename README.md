@@ -16,7 +16,7 @@ git clone https://github.com/Jalil-Betroji/lab-github.git
 **=>** but sometimes you may change same line that your group mate changed too <br>
  in this stuation when you try to merge your branch with his branch you will get a conflict.
 
-***Create your branch and push***
+***Create your branch and push***<br>
 ```
 git checkout -b <branch-name>
 ```
@@ -26,7 +26,7 @@ Replace <branch-name> with the desired name for your new branch. This command cr
 ```
 git branch <branch-name>
 ```
-***After creating the branch, you can switch to it later using:***
+***After creating the branch, you can switch to it later using:***<br>
 
 ```
 git checkout <branch-name>
@@ -65,7 +65,7 @@ git merge barnch-1
 Then, if there are no conflicts, to merge the branch-2 into main, use:
 
 ```
-git merge hussein
+git merge branch-2
 ```
 **Resolve Conflicts (If Any):**<br>
 If there are conflicts during the merge process, Git will pause and allow you to resolve them. You'll need to open the conflicted files, resolve the conflicts
