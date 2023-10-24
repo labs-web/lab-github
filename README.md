@@ -1,6 +1,6 @@
 # lab-github <br>
 
-# Steps to make conflict <br>
+**Steps to make conflict** <br>
 
 After collaborate with someone else to work on same repo 
 
@@ -67,8 +67,37 @@ Then, if there are no conflicts, to merge the branch-2 into main, use:
 ```
 git merge hussein
 ```
-# Resolve Conflicts (If Any):<br>
+**Resolve Conflicts (If Any):**<br>
 If there are conflicts during the merge process, Git will pause and allow you to resolve them. You'll need to open the conflicted files, resolve the conflicts
+
+**follow this steps to resolve conflict** <br>
+
+```
+<body>
+<<<<<<< HEAD
+    Hello im jalil betroji a full stack developer and solicode intern
+=======
+    hussein ipsum dolor sit amet consectetur adipisicing elit. 
+>>>>>>> origin/hussein
+    Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis 
+    quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
+    ll
+    lorem
+    MMMM
+</body>
+
+```
+***Accept Current Change***<br>
+use it if you want to keep the current change ignore the Incoming Change<br>
+
+***Accept Incoming Change***<br>
+use it if you want to keep the Incoming Change ignore the current Change<br>
+***Accept Both Changes***<br>
+use it if you want to keep the both Changes<br>
+***Compare Changes***<br>
+use it if you want to caompare changes and see what you want to keep and what you want to change <br>
+
+
 ***then stage the resolved files using:***<br>
 
 ```
@@ -82,9 +111,9 @@ git merge --continue
 ***Commit the Merged Changes:***
 After resolving any conflicts and making sure everything is as you want it, commit the merged changes:
 
-bash
-Copy code
+```
 git commit -m "Merge branch-1 and branch-2 into main"
+```
 ***Push the Changes to Remote:***
 
 Finally, push the merged changes to the remote repository:
