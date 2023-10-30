@@ -1,4 +1,19 @@
-# lab-github <br>
+# Travail à faire
+## Comment utiliser les méthodes Git ?
+#### Vous devez collaborer avec quelqu'un et ouvrir un conflit en utilisant les méthodes git.
+
+
+
+
+
+
+
+
+
+
+
+
+### lab-github <br>
 
 **Steps to make conflict** <br>
 
