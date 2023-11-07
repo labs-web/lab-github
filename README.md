@@ -1,5 +1,5 @@
 # lab-github <br>
-
+## How we can resolve github merge conflict
 **Steps to make conflict** <br>
 
 After collaborate with someone else to work on same repo 
