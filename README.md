@@ -1,5 +1,39 @@
-# lab-github <br>
-## Work to do: Make and resolve github merge conflict
+# lab-github 
+## Work to do:
+
+**Exercise:**
+1. **Task 1: Create a Conflict**
+ - Clone the Repository:
+   - Clone this repository (lab-github-exercise) to your local machine.
+   - Create a new branch named feature-branch.
+   - Make changes to the same line in the conflict-file.txt file.
+   - Commit your changes to the feature-branch.
+2. **Task 2: Resolve the Conflict**
+  - Switch to Main Branch:
+
+   - Ensure you are on the main branch.
+   - Pull the latest changes from the remote repository.
+   - Merge Feature Branch:
+
+   - Attempt to merge the feature-branch into the main branch.
+   - Resolve the conflict in the conflict-file.txt file.
+  - Complete the Merge:
+
+    - Stage the resolved file.
+    - Complete the merge process.
+    - Commit the resolved changes.
+3. **Task 3: Write a README**
+  - Create a README File:
+
+   - Create a new file named README-exercise.md.
+   - Document the steps you followed to create and resolve the conflict.
+   - Include any challenges faced and how you overcame them.
+   - Provide clear instructions for others to understand the conflict resolution process.
+4. **Submit Your Solution:**
+
+  - Create a new folder named GitHub-Merge-Conflict-Exercise.
+  - Place the resolved conflict-file.txt and README-exercise.md inside this folder
+## Resource :
 **Steps to make conflict** <br>
 
 After collaborate with someone else to work on same repo 
