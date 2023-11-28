@@ -1,124 +1,66 @@
-# lab-github <br>
+# Lab-GitHub: 
 
-**Steps to make conflict** <br>
+## Travail à Faire
+Création d'un Conflit dans les Articles sur les Villes
 
-After collaborate with someone else to work on same repo 
+### Créer un Fichier HTML sur un Article de Ville
 
-***First you need to clone your repo*** <br>
+1. Commencez par créer un fichier HTML pour un article sur une ville, contenant du contenu sur une ville choisie.
 
-```
-git clone https://github.com/Jalil-Betroji/lab-github.git
+### Cloner le Dépôt
 
-```
-***than you need to clone your repo*** <br>
+2. Clonez le dépôt sur votre machine locale.
 
-- than you can start changing in files according to your tasks
-**=>** but sometimes you may change same line that your group mate changed too <br>
- in this stuation when you try to merge your branch with his branch you will get a conflict.
+### Créer et Pousser une Nouvelle Branche
 
-***Create your branch and push***
-```
-git checkout -b <branch-name>
-```
-Replace <branch-name> with the desired name for your new branch. This command creates a new branch and switches to it.<br> 
-***If you want to create the branch but stay on your current branch, you can omit the -b flag:***
+3. Créez deux nouvelles branches avec des noms de villes différents. Par exemple :
+   - Branche 1 : `branche-villeA`
+   - Branche 2 : `branche-villeB`
 
-```
-git branch <branch-name>
-```
-***After creating the branch, you can switch to it later using:***
+4. Effectuez des modifications dans le fichier HTML sur les deux branches, en ajoutant un contenu unique lié à chaque ville.
 
-```
-git checkout <branch-name>
-```
-Or, if you're using Git version 2.23 or later, you can use the git switch command to switch branches:
+### Fusionner les Branches dans la Branche Principale
 
-```
-git switch <branch-name>
-```
+5. Assurez-vous que la branche principale est à jour avec les dernières modifications du dépôt distant.
 
-Remember to replace <branch-name> with the actual name you want to give to your new branch.
+6. Fusionnez `branche-villeA` dans la branche principale.
 
-***To merge branches barnch-1 and branch-2 into the main branch, follow these steps:***<br>
+7. Tentez de fusionner `branche-villeB` dans la branche principale. Rencontrez un conflit en raison de modifications dans la même section du fichier HTML.
 
-***Ensure You're on the Main Branch:***<br>
-Before you start merging, ensure that you are on the main branch. You can switch to the main branch using the following command:
+### Résoudre le Conflit
 
-```
-git checkout main
-```
+8. Ouvrez le fichier HTML en conflit et utilisez des balises de résolution de conflit spécifiques pour identifier les modifications en conflit.
 
-***Pull the Latest Changes:***<br>
+9. Choisissez l'option de résolution appropriée, telle que l'acceptation de la modification actuelle, l'acceptation de la modification entrante, l'acceptation des deux modifications, ou la comparaison des modifications.
 
-***It's a good practice to ensure your main branch is up-to-date with the remote repository before merging any branches. You can do this with:***
+10. Préparez le fichier HTML résolu.
 
-```
-git pull origin main
-```
-***Merge the Branches:***
-To merge the barnch-1 into main, use the following command:
+11. Poursuivez le processus de fusion.
 
-```
-git merge barnch-1
-```
+### Valider les Changements Fusionnés
 
-Then, if there are no conflicts, to merge the branch-2 into main, use:
+12. Validez les changements fusionnés en validant le fichier HTML résolu.
 
-```
-git merge hussein
-```
-**Resolve Conflicts (If Any):**<br>
-If there are conflicts during the merge process, Git will pause and allow you to resolve them. You'll need to open the conflicted files, resolve the conflicts
+## Pousser les Changements vers le Dépôt Distant
 
-**follow this steps to resolve conflict** <br>
+13. Poussez les changements fusionnés vers le dépôt distant.
 
-```
-<body>
-<<<<<<< HEAD
-    Hello im jalil betroji a full stack developer and solicode intern
-=======
-    hussein ipsum dolor sit amet consectetur adipisicing elit. 
->>>>>>> origin/hussein
-    Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis 
-    quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
-    ll
-    lorem
-    MMMM
-</body>
+Assurez-vous de tester minutieusement le code fusionné pour confirmer son bon fonctionnement avant de le déployer en production.
 
-```
-***Accept Current Change***<br>
-use it if you want to keep the current change ignore the Incoming Change<br>
-
-***Accept Incoming Change***<br>
-use it if you want to keep the Incoming Change ignore the current Change<br>
-***Accept Both Changes***<br>
-use it if you want to keep the both Changes<br>
-***Compare Changes***<br>
-use it if you want to caompare changes and see what you want to keep and what you want to change <br>
+## Critère de Validation
+1. Le fichier city-article.html doit être créé et contenir du contenu pertinent sur la ville choisie.
+2. Le dépôt doit être cloné avec succès sur la machine locale, et vous devez être capable de naviguer dans son répertoire.
+3. Les deux nouvelles branches (branche-villeA et branche-villeB) doivent être créées. Les modifications apportées au fichier HTML sur chaque branche doivent être visibles dans leurs branches respectives.
+4. La branche principale doit avoir été mise à jour avec les dernières modifications du dépôt distant. La fusion de branche-villeA doit être réussie. La tentative de fusion de branche-villeB doit provoquer un conflit.
+5. Le fichier HTML en conflit doit être ouvert et résolu. Il ne doit y avoir aucune balise de conflit restante dans le fichier. La fusion des branches doit se poursuivre sans erreur après la résolution du conflit.
+6. La validation des changements fusionnés doit être réussie, confirmant que les changements de branche-villeA et branche-villeB sont inclus dans le fichier HTML.
+7.  Les changements fusionnés doivent être poussés avec succès vers le dépôt distant. La branche principale sur le dépôt distant doit refléter la fusion réussie des deux branches de ville.
+8. Le fichier HTML doit être testé pour assurer un fonctionnement correct. Aucun problème d'affichage, d'agencement ou d'informations manquantes ne doit être observé.
 
 
-***then stage the resolved files using:***<br>
+## Référence
 
-```
-git add <conflicted-file-name>
-```
-Once all conflicts are resolved, continue the merge process with:
+Pour plus d'informations sur les opérations Git, consultez la documentation officielle de Git : [Documentation Git](https://git-scm.com/docs).
 
-```
-git merge --continue
-```
-***Commit the Merged Changes:***
-After resolving any conflicts and making sure everything is as you want it, commit the merged changes:
+N'hésitez pas à explorer des fonctionnalités Git supplémentaires pour améliorer le contrôle de version et la collaboration avec d'autres développeurs.
 
-```
-git commit -m "Merge branch-1 and branch-2 into main"
-```
-***Push the Changes to Remote:***
-
-Finally, push the merged changes to the remote repository:
-
-```
-git push origin main
-```
-Now, the changes from the bracnh-1 and branch-2 branches are merged into the main branch. Make sure to thoroughly test the merged code to ensure everything is working as expected before pushing to production if applicable.
