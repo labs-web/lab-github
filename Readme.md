@@ -1,5 +1,9 @@
 # Lab github
 
+## Rappel sur la réalisation des labs
+- Division de lab en tâches 
+- Création d'un issue pour chaque tâche après la validation avec votre formateur
+
 ## Travail à faire
 
 1. Conflit git
