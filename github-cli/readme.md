@@ -8,6 +8,9 @@
 2. Standard
    - Modifier la branche par défaut 
 
+## Installation 
+- https://github.com/cli/cli/releases/tag/v2.40.1
+
 ## Modifier la branche par défaut 
 
 - [Edit repository settings.](https://cli.github.com/manual/gh_repo_edit)
