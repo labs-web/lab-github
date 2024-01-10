@@ -8,13 +8,14 @@ Initialisation de l'historique d'un dépôt git
 1. Démarrage : Initialisation-de-l'historique-d'un-dépôt-git #9
    - #9 est le code de l'issue
 
+
 ## Livrable 
 
 - Lien de google slide du membre 
   - https://docs.google.com/presentation/d/1NyabYd3iZeVsRJuQfMHzZuPkYk0ji1a5hLEo3zhFBJw/edit?usp=sharing
 
 ## Critère de validation
-- Création de sous-fichier pour la description de la tâche et nommez-la Initialisation-de-l'historique-d'un-dépôt-git--< votre nom >
+- Création de sous-fichier pour la description de la tâche Initialisation de l'historique d'un-dépôt-git
   - à déposer dans le dossiers tâches
 - Le document présentation doit déposer en première temps dans de drive du membre
   - à déposer dans notre drive après la validation par le formateur
@@ -22,5 +23,6 @@ Initialisation de l'historique d'un dépôt git
 - Supprimer les historiques de commits précédents
 
 
-## Validation 
+## Tâche de Validateur 
 
+le nom de validatore : Adnane El Harrak
