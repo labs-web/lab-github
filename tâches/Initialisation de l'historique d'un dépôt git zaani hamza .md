@@ -15,4 +15,5 @@
    -  Initialisation de l'historique d'un dépôt git
    -  Ajoutez  les commandes que vous utilisez dans la réalisation de la tâche dans le fichier markdown
 
-## validation 
+## validateur 
+  adnane el harrake 
