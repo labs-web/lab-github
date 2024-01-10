@@ -1,7 +1,7 @@
 # Démarrage : Présentation google slide
 
 ## Travail à faire
-Présentation google slide
+Présentation google slide pour lab github
 
 ## Pulls request 
 
