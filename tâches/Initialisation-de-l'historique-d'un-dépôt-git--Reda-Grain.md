@@ -8,10 +8,11 @@
 
 ## Critère de validation
 
-- Supprimer les commits précédents
+- Création de sous-fichier pour la description de la tâche
+- Supprimer les historiques de commits précédents
 
 
 ## Livrables
 - Fichier Markdown
-- Présentation 
+- Présentation google slide 
   - solicoders/Branch Techniques/Labs
