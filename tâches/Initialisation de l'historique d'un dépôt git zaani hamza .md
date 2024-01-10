@@ -3,7 +3,7 @@
   - initialisation l'hestorique  d'un  dépôt
 
   ## pull request 
-   1.  starte: Initialisation de l'historique d'un dépôt git 
+   1.  starte: Initialisation de l'historique d'un dépôt git #9
    2.  Initialisation de l'historique d'un dépôt git zaani hamza close #9
 
 ## Livrable  
