@@ -16,4 +16,4 @@
 ## Livrables
 - Fichier Markdown
 - Présentation google slide 
-  - solicoders/Branch Techniques/Labs
+  - solicoders/Labs
