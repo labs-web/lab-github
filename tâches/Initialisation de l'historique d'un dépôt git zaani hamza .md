@@ -1,10 +1,18 @@
 # initialisation d'un depot git 
-### Travaille à faire 
+## Travaille à faire 
   - initialisation l'hestorique  d'un  dépôt
 
-### critères de validation 
+  ## pull request 
+   1.  starte: Initialisation de l'historique d'un dépôt git 
+   2.  Initialisation de l'historique d'un dépôt git zaani hamza close #9
+
+## Livrable  
+ - lien de dépôt/branch  GitHub liée a la tâche
+
+
+## critères de validation 
    -  Création de ce fichier markdown de discription de tache 
+   -  Initialisation de l'historique d'un dépôt git
+   -  Ajoutez  les commandes que vous utilisez dans la réalisation de la tâche 
 
-
-
-
+## validation 
