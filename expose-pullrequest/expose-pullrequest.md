@@ -16,8 +16,7 @@ Le travail doit être réalisé en deux étapes
 
 ## Livrable
 
-
-[Présentation](./Présentation.md)
+[Présentation](https://docs.google.com/presentation/d/1CKgfOiJ6ID3vYCZfqSAIvWOt_No7gsePuuuWaDkeJ_A/edit?usp=sharing)
 
 
 
