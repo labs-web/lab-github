@@ -1,7 +1,7 @@
 # lab-github
 
 ## backlog
-    
+
 - Backlog-lab-github
 - utilisation-git-diff
 - Resoudre-les-conflits
