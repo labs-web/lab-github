@@ -2,7 +2,7 @@
 name: Bug
 about: Déclaration d'un bug
 title: ''
-labels: bug
+labels: bug,new_issue
 assignees: ''
 
 ---
