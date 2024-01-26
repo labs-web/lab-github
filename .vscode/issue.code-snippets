@@ -1,0 +1,20 @@
+{
+
+	"Création chapitre": {
+		"scope": "markdown",
+		"prefix": "backlog-item",
+		"body": [
+			"# $1",
+			"## Travail à faire";
+			"- "
+			"## Livrable";
+			"- Script Powershell";
+			"  - /github-actions/$2/script.ps1";
+			"- Workflow";
+			"  - workflow/$3.yml";
+			"- Présentation avec des notes ";
+			"  - /docs/feature/$4.md
+		],
+		"description": "Création issue"
+	}
+}
