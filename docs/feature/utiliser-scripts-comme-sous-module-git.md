@@ -24,8 +24,8 @@ git fetch
 git pull
 git add .
 git commit -m "modification dans script"
+git push
 ```
-
 
 ## Clone 
 
@@ -48,11 +48,9 @@ git fetch --recurse-submodules
 ## git pull
 
 ```bash
-git pull --recurse-submodules
+git submodule update --init --recursive
+git submodule update --recursive --remote
 ```
-
-## git commit 
-
 
 ## git push
 
