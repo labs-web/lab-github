@@ -48,6 +48,17 @@ git fetch --recurse-submodules
 ## git pull
 
 ```bash
+git submodule update --init 
+git submodule update --remote
+```
+ou
+
+```bash
+git submodule update --init --remote
+```
+
+si le submodule contient aussi un submodule
+```bash
 git submodule update --init --recursive
 git submodule update --recursive --remote
 ```
