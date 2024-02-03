@@ -8,12 +8,7 @@
 			"## Travail à faire";
 			"- "
 			"## Livrable";
-			"- Script Powershell";
-			"  - /github-actions/$2/script.ps1";
-			"- Workflow";
-			"  - workflow/$3.yml";
-			"- Présentation avec des notes ";
-			"  - /docs/feature/$4.md
+			"- /docs/feature/$2.md";
 		],
 		"description": "Création issue"
 	}

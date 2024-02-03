@@ -19,8 +19,7 @@ jobs:
           submodules: true
       - name: run update-issues-from-backlog.ps1.ps1
         shell: pwsh
-        run: ./scripts/issues/update-issues-from-backlog.ps1
+        run: ./scripts/issues/update-issues-from-backlog.ps1 ${{github.repository_owner}}
         env:
           GH_TOKEN: ${{ secrets.GHPROJECT_TOKEN }}
-          # GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
