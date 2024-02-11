@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: presentation
 order: 1
 ---
 
@@ -15,8 +15,6 @@ and page.url != "/presentation.html" %}
 
 {% endif %}
 {% endfor %}
-
-
 
  
  

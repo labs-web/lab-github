@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 12pt;
+  background: #fbfbfb;
+}
+
+article[size="A4"] {
+  display: block;
+  width: 21cm;
+  background: white;
+  padding: 1cm;
+  margin: 1cm auto;
+  /* margin-bottom: 0.5cm; */
+  border: rgba(0, 0, 0, 0.2) solid 1px ;
+ 
+}
+
+@media print {
+    body,
+    article[size="A4"] {
+      margin: 0;
+      padding: initial;
+   
+	  /* border:initial; */
+    }
+}
+  
+/* 
+* Images
+*/
+/* Centrer les images */
+img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+/* Nom de figure d'image */
+/* Par conception : le titre de figure est l'élément em situé aprés l'image */
+img + em {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 11pt;
+  color: #666;
+  margin-top: 5px;
+}
+
+
+ /* Style Definitions lik MS Word */
+ p, li {
+margin-top:0cm;
+margin-right:0cm;
+margin-bottom:8.0pt;
+margin-left:0cm;
+line-height:107%;
+font-size:12.0pt;
+font-family:"Calibri",sans-serif;
+text-align: justify;
+}
+h1{
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;
+}
+h2{
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;
+}
+h3
+	{
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;
+	font-weight:normal;
+}
+h4
+	{
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;}
+h6
+	{
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	margin-bottom:1pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;
+	font-weight:normal;}
+
+	
