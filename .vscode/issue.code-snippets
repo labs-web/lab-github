@@ -8,7 +8,7 @@
 			"## Travail à faire";
 			"- "
 			"## Livrable";
-			"- /docs/feature/$2.md";
+			"- /docs/$2/$2.md";
 		],
 		"description": "Création issue"
 	}
