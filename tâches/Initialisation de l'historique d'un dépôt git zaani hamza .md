@@ -1,3 +1,8 @@
+---
+layout: default
+
+order: 6
+---
 # initialisation d'un depot git 
 ## Travaille à faire 
   - initialisation l'hestorique  d'un  dépôt

@@ -1,3 +1,10 @@
+---
+layout: default
+
+order: 2
+---
+
+
 # utiliser-scripts-comme-sous-module-git
 
 Exemple pratique : création d'un sous module pour le projet scrips dans le lab-powershell

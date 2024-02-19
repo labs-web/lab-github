@@ -1,3 +1,8 @@
+---
+layout: default
+
+order: 6
+---
 # lab-github
 
 ## backlog

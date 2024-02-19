@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body {
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
 
+
+body {
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
 	font: 12pt "Roboto";
 }
-* {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
+
 
 /* 
  * Séparateur des pages
@@ -94,6 +96,7 @@ img {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  max-width: 100%;
 
 }
 /* Nom de figure d'image */
@@ -209,3 +212,21 @@ h6
 
 
 	
+
+#table-de-matière+ul li a {
+    font-weight: bold;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#table-de-matière+ul {
+    list-style-type: none;
+}
+
+#table-de-matière+ul li a:hover {
+    color: #777;
+}
