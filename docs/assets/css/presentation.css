@@ -1,7 +1,88 @@
-
 /* section{
-    top:0px !important
+    display: grid !important;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+// Layout 1 : Titre2 > image  
+section  h2:has(+ p > img) { 
+    grid-column: 1 / 11;
+    grid-row: 1/2;
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+section h2 +  p   {
+    grid-column: 1 / 11;
+    grid-row: 2/11;
+    background-color: antiquewhite;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+Layout 2 : Titre 2 , Paragraphe ,  Image 
+
+section p:has(+ p > img) { 
+    float: left;
+    position: relative;
+    left: 4%;
+    width: 45%;
+    text-align: justify;
+}
+section p +  p > img  {
+    float: right;
+    position: relative;
+    right: 4%;
+    width: 45%;
+}
+
+
+ Layout 2 : Titre, Lite,Image 
+
+section  ul:has(+ p > img) {
+    width: 50%;
+    height: 50%;
+    margin: 11px;
+    background-color: lightblue;
+}
+
+section ul +  p  {
+    width: 50%;
+    width: 50%;
+    margin: 11px;
+    background-color: lightblue;
+}
+
+ */
+
+
+
+
+
+
+/* section ul + p img {
+    float: right;
+    border: 1px solid red;
 } */
+
+
+.min_titre{
+    font-size: 30px !important;
+}
+
+/* Ne pas afficher les noms des figures */
+img + em {
+    display:none;
+}
+
+
+section{
+    top:0px !important
+}
 
 
 /* h1 {
@@ -27,9 +108,7 @@
     text-align: start;
 } */
 
-img + em {
-    display:none;
-}
+
 
 /* 
 img[alt="SOLICODE"] {
